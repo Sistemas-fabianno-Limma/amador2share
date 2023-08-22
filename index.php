@@ -13,13 +13,17 @@ include('pages_public/home.php');
 break;
 /////////////////////////
 case "login":
-    include('pages_public/login.php');
-    break;
-    /////////////////////////
-    case "registro":
-        include('pages_public/registro.php');
-        break;
-        /////////////////////////
+include('pages_public/login.php');
+break;
+/////////////////////////
+case "registro":
+include('pages_public/registro.php');
+break;
+/////////////////////////
+case "checkingData":
+include('checking.php');
+break;
+
 }
 require_once('includes_path/footer.php');
 ?>
