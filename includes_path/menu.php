@@ -1,2 +1,2 @@
-<div class="site-title"><a href="<?php echo htmlspecialchars("?page=home");?>" class="logo"><h1>Amador2share</h1></a></div>
+<div class="site-title"><a href="<?php echo htmlspecialchars("?page=home");?>" class="logo"><img src="img/logo.png" class="img-responsive" style="height: 60px; margin-top: -15px; pading-top: -10px;"></a></div>
 <div class="panel-control-right"><a href="<?php echo htmlspecialchars("?page=news");?>"><i class="fa fa-newspaper-o"></i></a></div>
