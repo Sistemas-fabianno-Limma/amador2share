@@ -20,6 +20,27 @@ case "registro":
 include('pages_public/registro.php');
 break;
 /////////////////////////
+case "news":
+    include('pages_public/novidades.php');
+    break;
+    /////////////////////////
+case "players":
+    include('pages_public/players.php');
+    break;
+    /////////////////////////
+case "clubes":
+    include('pages_public/clubes.php');
+    break;
+/////////////////////////
+    /////////////////////////
+    case "player":
+        include('pages_private/player.php');
+        break;
+        /////////////////////////
+    case "meuclube":
+        include('pages_private/meuClube.php');
+        break;
+    /////////////////////////
 case "checkingData":
 include('checking.php');
 break;
