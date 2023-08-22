@@ -4,7 +4,7 @@
 			<div class="pages-title">
 				<h3>Novo Cadastro</h3>
 			</div>
-			<form method="post" action="?page=checkingData&tipo=cadastro">
+			<form method="post" action="<?php echo htmlspecialchars("?page=checkingData&tipo=cadastro");?>">
 				<input name="fnome" type="text" placeholder="Primeiro Nome">
 				<input name="lnome" type="text" placeholder="Último Nome">
 				<input name="usuario" type="text" placeholder="Usuário">

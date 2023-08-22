@@ -1,6 +1,8 @@
 <?php
 session_start();
-$page = $_GET['page'];
+require_once('setting/config.php');
+require_once('functions/functions.php');
+$page = inputCheck($_GET['page']);
 require_once('includes_path/header.php');
 switch($page){
 /////////////////////////

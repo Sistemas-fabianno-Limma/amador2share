@@ -1,32 +1,18 @@
 <div class="page-404 app-pages app-section">
 		<div class="container">
 			<?php
-            $tipo = $_GET['tipo'];
+$tipo = $_GET['tipo'];
 ////////////////////////////////////////////////////////////////////
- if($tipo == "cadastro"){ 
-    // criando registro do usuario           
-            $fnome = $_POST['fnome'];
-            $lnome = $_POST['lnome'];
-            $usuario = $_POST['usuario'];
-            $email = $_POST['email'];
-            $senha = $_POST['senha'];
-            $rsenha = $_POST['rsenha'];
- if(empty($fnone)||empty($lnone)||empty($usuario)||empty($email)||empty($senha)||empty($rsenha)){
-                echo "
-                <h1><span>Ops!</span> Você não pdoe deixar campos em branco!</h1>
-                <a class='button' href='?page=registro'>Voltar a Página de cadastro novamente</a>
-                ";
-}else{
-
-
-}        
-
- } elseif($tipo == "login"){
+if($tipo == "cadastro"){ 
+    // criando registro do usuário           
+   require_once('setting/cadastro.php');
+    // finalizando registro do usuário
+} else if($tipo == "login"){
    // criando registro do usuario  
     $usuario = $_POST['usuario'];
     $senha = $_POST['senha'];
 
- }else{
+}else{
 if(empty($tipo)){
 echo "
 <h1><span>Ops!</span> pagína errada ou não tem permissão!</h1>
