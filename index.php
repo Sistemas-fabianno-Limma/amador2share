@@ -33,16 +33,21 @@ case "players":
 case "clubes":
     include('pages_public/clubes.php');
     break;
-/////////////////////////
     /////////////////////////
-    case "player":
-        include('pages_private/player.php');
-        break;
+case "visao":
+    include('pages_public/visao.php');
+    break;
+//////////////////////////////
+//////////////////////////////
+case "player":
+    include('pages_private/player.php');
+    break;
         /////////////////////////
-    case "meuclube":
-        include('pages_private/meuClube.php');
-        break;
-    /////////////////////////
+case "meuclube":
+    include('pages_private/meuClube.php');
+    break;
+//////////////////////////////
+//////////////////////////////
 case "checkingData":
 include('checking.php');
 break;

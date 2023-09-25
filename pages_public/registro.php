@@ -5,12 +5,12 @@
 				<h3>Novo Cadastro</h3>
 			</div>
 			<form method="post" action="<?php echo htmlspecialchars("?page=checkingData&tipo=cadastro");?>">
-				<input name="fnome" type="text" placeholder="Primeiro Nome">
-				<input name="lnome" type="text" placeholder="Último Nome">
-				<input name="usuario" type="text" placeholder="Usuário">
-				<input name="email" type="email" placeholder="Email">
-				<input name="senha" type="password" placeholder="Senha">
-                <input name="rsenha" type="password" placeholder="Senha">
+				<input id="fnome" name="fnome" type="text" placeholder="Primeiro Nome">
+				<input id="lnome" name="lnome" type="text" placeholder="Último Nome">
+				<input id="usuario" name="usuario" type="text" placeholder="Usuário">
+				<input id="email" name="email" type="email" placeholder="Email">
+				<input id="senha" name="senha" type="password" placeholder="Senha">
+                <input id="rsenha" name="rsenha" type="password" placeholder="Senha">
 				<button type="submit" class="button">Registrar</button>
 				<strong class="login-now">Já está regitrado? <a href="?page=login">Entre agora</a></strong>
 			</form>

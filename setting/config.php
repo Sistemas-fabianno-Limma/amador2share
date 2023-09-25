@@ -5,13 +5,12 @@ $bd = "amadorshare";
 $pass = "";
 $user = "root";
 /////////////////////////////////////
-//setting connection db
-
-// setting site
+//setting connection db /////////////
+// setting site         /////////////
 $namesite = "Amador2Share";
 $descsite = "Rede social dedicado ao futebol amador.";
 $url = "localhost/amador2share";
-$metasite = "futshare, futebol, brasil";
+$metasite = "futshare, futebol, amador, brasil";
 $logosite = "";
 $footer = "Software produzido por Sistemas FL - Copyright ".date('Y');
 $versão = "1.0.0";

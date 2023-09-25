@@ -5,9 +5,9 @@
 				<h3>Fazer Login</h3>
 			</div>
 			<form method="post" action="<?php echo htmlspecialchars("?page=checkingData&tipo=login");?>">
-				<input type="text" name="usuario" placeholder="Digite seu usuário">
-				<input type="password" name="senha" placeholder="Sua Senha">
-				<div><a href="#" class="forgot">Perdeu a senha?</a></div>
+				<input id="usuario" type="text" name="usuario" placeholder="Digite seu usuário">
+				<input id="passwrd" type="password" name="senha" placeholder="Sua Senha">
+				<div><a href="<?php echo htmlspecialchars("?page=checkingData&tipo=novasenha");?>" class="forgot">Perdeu a senha?</a></div>
 				<button typw="submit" class="button">Fazer login</button>
 				<div class="create-account">Sem registro? <a href="<?php echo htmlspecialchars("?page=registro");?>">Cre umaconta agora!</a></div>
 			</form>

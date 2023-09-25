@@ -2,7 +2,7 @@
 <div class="latest-result app-section app-section-top">
     <div class="container">
         <div class="app-title">
-<h4>Latest Result</h4>
+<h4>Últimos jogos em destaque:</h4>
 <div class="line"></div>
 </div>
 <ul class="score">
@@ -18,11 +18,29 @@
     <li>Dolor FC</li>
 </ul>
 <ul class="stadium">
-    <li>Lorem Stadium</li>
+    <li>estadio do time desafiante</li>
 </ul>
 <ul class="date">
-    <li>Mon 15 Aug 2016 20:00</li>
+    <li>Domingo, 20/12/2023 16:00:00</li>
+</ul><ul class="score">
+    <li><img src="img/club1.png" alt=""></li>
+    <li>0</li>
+    <li>:</li>
+    <li>2</li>
+    <li><img src="img/club2.png" alt=""></li>
 </ul>
+<ul class="club-title">
+    <li>Lorem FC</li>
+    <li>VS</li>
+    <li>Dolor FC</li>
+</ul>
+<ul class="stadium">
+    <li>estadio do time desafiante</li>
+</ul>
+<ul class="date">
+    <li>Domingo, 20/12/2023 16:00:00</li>
+</ul>
+
 </div></div>
 <div class="latest-news app-section">
     <div class="container">
@@ -31,6 +49,7 @@
 <div class="line"></div>
 </div>
 <div class="row">
+    
     <div class="col s6">
         <div class="entry">
             <img src="img/news1.png" alt="">
